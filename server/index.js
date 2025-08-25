@@ -28,6 +28,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cookieParser());
 
+app.get('/',(req,res)=>{
+  res.send('Hello World!');
+})
+
 //app.use(morgan("dev"));
 app.use("/api", routes);
 
