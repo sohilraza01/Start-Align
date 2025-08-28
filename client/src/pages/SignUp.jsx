@@ -44,7 +44,7 @@ const Signup = () => {
               Create your account and start managing tasks!
             </span>
             <p className='flex flex-col gap-0 md:gap-4 text-4xl md:text-6xl 2xl:text-7xl font-black text-center dark:text-gray-400 text-blue-700'>
-              <span>Task Management System</span>
+              <span>Start Align</span>
             </p>
             <div className='cell'>
               <div className='circle rotate-in-up-left'></div>
@@ -131,7 +131,7 @@ const Signup = () => {
               >
                 <option value=''>Select Role</option>
                 <option value='admin'>Admin</option>
-                <option value='employee'>Employee</option>
+                <option value='employee'>User</option>
               </select>
               {errors.role && <p className='text-red-500 text-sm'>{errors.role.message}</p>}
             </div>
