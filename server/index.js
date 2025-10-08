@@ -17,7 +17,7 @@
 
   app.use(
     cors({
-      origin: ["https://task-management-system-five-chi.vercel.app","http://localhost:3000", "http://localhost:3001"],
+      origin: ["https://start-align-five-chi.vercel.app","http://localhost:3000", "http://localhost:3001"],
       methods: ["GET", "POST", "DELETE", "PUT"],
       credentials: true,
     })
